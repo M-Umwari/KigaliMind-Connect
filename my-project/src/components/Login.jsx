@@ -1,8 +1,8 @@
 // Login.js
 
-import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
-
+import React from 'react';
+import { useState } from 'react';
+export default function Login() {
 const Login = ({ setUser }) => {
   const history = useHistory();
   const [username, setUsername] = useState('');

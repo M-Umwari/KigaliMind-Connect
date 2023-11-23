@@ -1,31 +1,30 @@
-// Login.js
-
-import React from 'react';
 import { useState } from 'react';
+// import { useHistory } from "react-router-dom";
+
 export default function Login() {
-const Login = ({ setUser }) => {
-  const history = useHistory();
+  // const history = useHistory();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [isAdministrator, setIsAdministrator] = useState(false);
+  // const [user, setUser] = useState('')
 
-  const handleLogin = () => {
-    // Perform login logic (e.g., validate credentials, make API requests)
-    // For simplicity, just set a dummy user for demonstration purposes
-    const user = {
-      username,
-      role: isAdministrator ? 'admin' : 'user',
-    };
+  // const handleLogin = () => {
+  //   // Perform login logic (e.g., validate credentials, make API requests)
+  //   // For simplicity, just set a dummy user for demonstration purposes
+  //   const user = {
+  //     username,
+  //     role: isAdministrator ? 'admin' : 'user',
+  //   };
 
-    setUser(user);
-    history.push('/dashboard');
-  };
+  //   setUser(user);
+  //   history.push('/dashboard');
+  // };
 
-  const handleSignUp = () => {
-    // Perform sign-up logic (e.g., make API requests to create a new user)
-    // For simplicity, just navigate to the sign-up page
-    history.push('/signup');
-  };
+  // const handleSignUp = () => {
+  //   // Perform sign-up logic (e.g., make API requests to create a new user)
+  //   // For simplicity, just navigate to the sign-up page
+  //   history.push('/signup');
+  // };
 
   return (
     <div>
@@ -49,11 +48,8 @@ const Login = ({ setUser }) => {
         />
       </label>
       <br />
-      <button onClick={handleLogin}>Login</button>
-      <button onClick={handleSignUp}>Sign Up</button>
+      {/* <button onClick={handleLogin}>Login</button> */}
+      {/* <button onClick={handleSignUp}>Sign Up</button> */}
     </div>
   );
-};
-
-export default Login;
-// Signup.js
+}

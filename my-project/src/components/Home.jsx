@@ -1,6 +1,6 @@
 // Home.jsx
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -10,9 +10,18 @@ const Home = () => {
         <h1 className="font-bold text-xl underline transition-all ease-in-out hover:text-blue-500">RWANDAMIND CONNECT</h1>
         <div className=" flex gap-4 items-center">
           {/* Navigation Links */}
-          <Link to="/topics">Topics</Link>
-          <Link to="/resources">Resources</Link>
-          <Link to="/support">Support</Link>
+          <NavLink to="/topics" className={({ isActive }) =>
+            isActive
+              ? "flex h-10 items-center gap-1 px-4 underline"
+              : "flex h-10 items-center gap-1.5 px-4 "}>Topics</NavLink>
+          <NavLink to="/resources" className={({ isActive }) =>
+            isActive
+              ? "flex h-10 items-center gap-1 px-4 d underline"
+              : "flex h-10 items-center gap-1.5 px-4 "}>Resources</NavLink>
+          <NavLink to="/support" className={({ isActive }) =>
+            isActive
+              ? "flex h-10 items-center gap-1 px-4  underline"
+              : "flex h-10 items-center gap-1.5 px-4 "}>Support</NavLink>
         </div>
       </header>
 

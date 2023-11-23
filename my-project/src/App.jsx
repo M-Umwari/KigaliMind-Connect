@@ -10,7 +10,6 @@ function App() {
 
   return (
 <Router>
-<Router>
       <Switch>
         <Route path="/topics" component={Topics} />
         <Route path="/resources" component={Resources} />
@@ -21,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App();

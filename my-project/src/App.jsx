@@ -8,6 +8,7 @@ export default function App() {
     <Route>
       <Route path="/login" element={<Login />} />
       <Route path="/support" element={<Support />} />
+      <Route path="/resources" component={<Resources/>} />
       <Route path="/topics" element={<Topics />}>
       </Route>
     </Route>

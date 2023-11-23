@@ -3,6 +3,8 @@ import'./index.css'
 import Support from './components/Support'
 import Login from './components/Login'
 import Topics from './components/Topics';
+import Resources from './components/Resources';
+
 export default function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route>

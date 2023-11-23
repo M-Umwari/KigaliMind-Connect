@@ -1,0 +1,14 @@
+{
+  "name": "kigalimind-connect",
+  "version": "1.0.0",
+  "description": "A mental Health Connect platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:css\" \"react-scripts start\"",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+

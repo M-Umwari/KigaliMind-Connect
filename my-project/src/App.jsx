@@ -10,6 +10,8 @@ import Loneliness from './components/Loneliness';
 import ADHD from './components/ADHD';
 import Depression from './components/Depression';
 import Stress from './components/Stress';
+import Chatboard from './components/Chatboard';
+import EatingDisorder from './components/EatingDisorder';
 
 export default function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -19,11 +21,13 @@ export default function App() {
       <Route path="/support" element={<Support />} />
       <Route path="/resources" component={<Resources />} />
       <Route path="/topics" element={<Topics />} />
+      <Route path='/chatboard' element={<Chatboard/>}/>
       <Route path="/topics/anxiety" element={<Anxiety />} />
       <Route path='/topics/loneliness' element={<Loneliness />} />
       <Route path='/topics/adhd' element={<ADHD />} />
       <Route path='/topics/depression' element={<Depression />} />
       <Route path='/topics/stress' element={<Stress />} />
+      <Route path='/topics/eating-disorder' element={<EatingDisorder/>}/>
     </Route>
   ))
   return (

@@ -1,32 +1,40 @@
 // Home.jsx
 
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      <header className="bg-blue-950 text-blue-300 flex items-center  justify-between max-w-7xl mx-auto px-20 h-16">
+      <header className="bg-blue-950 text-blue-300 px-20 h-1/4">
         {/* Logo */}
-        <h1 className="font-bold text-xl underline transition-all ease-in-out hover:text-blue-500">RWANDAMIND CONNECT</h1>
-        <div className=" flex gap-4 items-center">
-          {/* Navigation Links */}
-          <NavLink to="/topics" className={({ isActive }) =>
-            isActive
-              ? "flex h-10 items-center gap-1 px-4 underline"
-              : "flex h-10 items-center gap-1.5 px-4 "}>Topics</NavLink>
-          <NavLink to="/resources" className={({ isActive }) =>
-            isActive
-              ? "flex h-10 items-center gap-1 px-4 d underline"
-              : "flex h-10 items-center gap-1.5 px-4 "}>Resources</NavLink>
-          <NavLink to="/support" className={({ isActive }) =>
-            isActive
-              ? "flex h-10 items-center gap-1 px-4  underline"
-              : "flex h-10 items-center gap-1.5 px-4 "}>Support</NavLink>
+        <div className="max-w-7xl mx-auto flex items-center h-full justify-between ">
+          <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+          </div>
+          <div className=" flex gap-4 items-center md:text-2xl">
+            {/* Navigation Links */}
+            <NavLink to="/topics" className={({ isActive }) =>
+              isActive
+                ? "flex h-10 items-center gap-1 px-4 underline"
+                : "flex h-10 items-center gap-1.5 px-4 "}>Topics</NavLink>
+            <NavLink to="/resources" className={({ isActive }) =>
+              isActive
+                ? "flex h-10 items-center gap-1 px-4 d underline"
+                : "flex h-10 items-center gap-1.5 px-4 "}>Resources</NavLink>
+            <NavLink to="/support" className={({ isActive }) =>
+              isActive
+                ? "flex h-10 items-center gap-1 px-4  underline"
+                : "flex h-10 items-center gap-1.5 px-4 "}>Support</NavLink>
+            <NavLink to="/chatboard" className={({ isActive }) =>
+              isActive
+                ? "flex h-10 items-center gap-1 px-4  underline"
+                : "flex h-10 items-center gap-1.5 px-4 "}>Chatboard</NavLink>
+          </div>
         </div>
       </header>
 
-      <section className="max-w-7xl mx-auto px-10 mt-8">
-        <div className="text-xl text-blue-900 font-semibold ">
+      <section className="max-w-7xl mx-auto  mt-8">
+        <div className="text-xl text-blue-900 font-semibold  ">
           <h1>Welcome to RwandaMind Connect</h1>
           <p>We are here for you.</p>
         </div>

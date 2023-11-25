@@ -16,8 +16,8 @@ import EatingDisorder from './components/EatingDisorder';
 export default function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route>
-      <Route path="/login" element={<Login />} />
-      <Route path='/' element={<Home />} />
+      <Route path="/" element={<Login />} />
+      <Route path='/home' element={<Home />} />
       <Route path="/support" element={<Support />} />
       <Route path="/resources" component={<Resources />} />
       <Route path="/topics" element={<Topics />} />

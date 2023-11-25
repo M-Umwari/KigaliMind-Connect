@@ -1,55 +1,43 @@
 import { useState } from 'react';
-// import { useHistory } from "react-router-dom";
+import { signIn, signUp } from '../services/authentication';
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
-  // const history = useHistory();
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [isAdministrator, setIsAdministrator] = useState(false);
-  // const [user, setUser] = useState('')
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  const navigate = useNavigate()
 
-  // const handleLogin = () => {
-  //   // Perform login logic (e.g., validate credentials, make API requests)
-  //   // For simplicity, just set a dummy user for demonstration purposes
-  //   const user = {
-  //     username,
-  //     role: isAdministrator ? 'admin' : 'user',
-  //   };
+  const  handleLogin=async (e)=>{
+    e.preventDefault();
+   const user= await  signIn(email,password);
+    if(user){
+      setIsSignedIn(true)
+    }
+  }
 
-  //   setUser(user);
-  //   history.push('/dashboard');
-  // };
+  if (isSignedIn) navigate('/home')
 
-  // const handleSignUp = () => {
-  //   // Perform sign-up logic (e.g., make API requests to create a new user)
-  //   // For simplicity, just navigate to the sign-up page
-  //   history.push('/signup');
-  // };
-
+  const handleSignUp=async (e)=>{
+    e.preventDefault();
+ return await signUp(email,password);
+}
   return (
-    <div>
-      <h2>Login</h2>
-      <label>
-        Username:
-        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+    <form method='POST' className='grid h-screen place-content-center  gap-5 '>
+   
+      <label className=' flex items-center justify-center gap-4'>
+        Email:
+        <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required  className='border border-blue-950  rounded-md'/>
       </label>
-      <br />
-      <label>
+      <label className=' flex items-center justify-center gap-4'>
         Password:
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required className='border border-blue-950  rounded-md' />
       </label>
-      <br />
-      <label>
-        Login as Administrator:
-        <input
-          type="checkbox"
-          checked={isAdministrator}
-          onChange={() => setIsAdministrator(!isAdministrator)}
-        />
-      </label>
-      <br />
-      {/* <button onClick={handleLogin}>Login</button> */}
-      {/* <button onClick={handleSignUp}>Sign Up</button> */}
-    </div>
+     <div className='flex flex-col gap-5 items-start'>
+     <button type='submit' onClick={handleLogin}>Login</button>
+     <p>You don't have an account?</p>
+      <button type='submit' onClick={handleSignUp}>Sign Up</button>
+     </div>
+    </form>
   );
 }

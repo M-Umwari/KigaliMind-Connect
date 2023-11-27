@@ -23,7 +23,7 @@ export default function Login() {
  return await signUp(email,password);
 }
   return (
-    <form method='POST' className='grid h-screen place-content-center  gap-5 '>
+    <form method='POST' className='grid h-screen place-content-center  gap-5 bg-blue-900 classname = text-blue-200 font-extrabold'>
    
       <label className=' flex items-center justify-center gap-4'>
         Email:

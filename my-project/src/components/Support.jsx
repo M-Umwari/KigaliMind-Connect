@@ -5,6 +5,7 @@ export default function Support() {
   const navigate = useNavigate()
   return (
     <>
+    <div>Awaiting on ALU's response for collaboration</div>
      
     <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">
         <p>RWANDA MIND CONNECT</p>

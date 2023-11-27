@@ -1,4 +1,4 @@
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { auth } from '../services/authentication';
 import { signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
@@ -31,6 +31,7 @@ export default function Resources() {
                 ? "flex h-10 items-center gap-1 px-4  underline"
                 : "flex h-10 items-center gap-1.5 px-4 "}>Chatboard</NavLink>
           </div>
+          WElcom to RwandaMind Connect
         </div>
       </header>
       <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">

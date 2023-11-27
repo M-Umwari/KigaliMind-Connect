@@ -8,7 +8,7 @@ export default function Resources() {
     <div>
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4">
         {/* Logo */}
-        <div className="max-w-7xl mx-auto flex items-center h-full justify-between ">
+        <div className="max-w-7xl mx-auto flex items-center h-full justify-between "></div>
           <div className=" rounded-full my-3 ">         
              <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
           </div>
@@ -31,6 +31,7 @@ export default function Resources() {
                 ? "flex h-10 items-center gap-1 px-4  underline"
                 : "flex h-10 items-center gap-1.5 px-4 "}>Chatboard</NavLink>
           </div>
+          <div className="flex gap-4">
           <p className='text-xl text-blue-900 font-semibold'>Caring for Your Mental Health</p>
           <p className= "tEXT-xl text-blue-900 font-semibold">OverView</p>
          <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
@@ -50,7 +51,7 @@ export default function Resources() {
             <li>Stay connected. Reach out to your friends or family members who can provide emotional support and practical help.</li>
             <li>Self-care looks different for everyone, and it is important to find what you need and enjoy. It may take trial and error to discover what works best for you. In addition, although self-care is not a cure for mental illnesses, understanding what causes or triggers your mild symptoms and what coping techniques work for you can help manage your mental health.</li>
         </ul>
-
+          </div>
         
         <div className=" mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}

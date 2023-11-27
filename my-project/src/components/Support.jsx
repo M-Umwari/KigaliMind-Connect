@@ -5,8 +5,7 @@ export default function Support() {
   const navigate = useNavigate()
   return (
     <>
-    <div>Support</div>
-    <h1 className="text-2xl text-center text-blue-500 bg-black ">Hello Vite + React!</h1>  
+     
     <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">
         <p>RWANDA MIND CONNECT</p>
         <div className="flex gap-4">

@@ -24,7 +24,7 @@ export default function Login() {
 }
   return (
     <form method='POST' className='grid h-screen place-content-center  gap-5 bg-blue-900 classname = text-blue-200 font-extrabold'>
-   
+   <p>Welcom to our community</p>
       <label className=' flex items-center justify-center gap-4'>
         Email:
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required  className='border border-blue-950  rounded-md'/>

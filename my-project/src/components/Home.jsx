@@ -43,6 +43,7 @@ const Home = () => {
 
         </div>
         <div>
+          <a href='https://www.healthyplace.com/other-info/mental-health-newsletter/connecting-with-others-friendship-enhance-mental-health#connecting'img src="https://www.healthyplace.com/sites/default/files/images/stories/other-info/newsletter/connecting-others-mental-health-healthyplace.jpg" alt="connecting with others" /></div>
         <p className='text-xl text-blue-900 font-semibold'>Caring for Your Mental Health</p>
           <p className= "tEXT-xl text-blue-900 font-semibold">OverView</p>
          <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
@@ -63,7 +64,7 @@ const Home = () => {
             <li>Self-care looks different for everyone, and it is important to find what you need and enjoy. It may take trial and error to discover what works best for you. In addition, although self-care is not a cure for mental illnesses, understanding what causes or triggers your mild symptoms and what coping techniques work for you can help manage your mental health.</li>
         </ul>
 
-        </div>
+        
         <div className=" mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}
           <h2 className='text-lg font-semibold '>Mental Health is the Key to a Proper Life, Success, and Peace</h2>

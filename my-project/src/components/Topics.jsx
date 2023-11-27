@@ -44,6 +44,15 @@ const Topics = () => {
           <Link to="/topics/eating-disorders" className="bg-[url('src/assets/Images/Anxiety.svg')] bg-auto bg-no-repeat h-32 w-full text-center py-14 rounded-lg" >Eating Disorders</Link>
         </section>
       </section>
+      <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">
+        <p>RWANDA MIND CONNECT  </p>
+        <div className="flex gap-4">
+          <a href="https://www.facebook.com/"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="facebook"/></a>
+          <a href="https://www.instagram.com/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="instagram"/></a>
+          <a href="https://twitter.com/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="twitter"/></a>
+        </div>
+        
+        </footer>
     </div>
   );
 };

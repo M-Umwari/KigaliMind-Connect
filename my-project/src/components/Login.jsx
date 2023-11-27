@@ -23,8 +23,8 @@ export default function Login() {
  return await signUp(email,password);
 }
   return (
-    <form method='POST' className='grid h-screen place-content-center  gap-5 bg-blue-900 classname = text-blue-200 font-extrabold'>
-   <p>Welcom to our community</p>
+    <form method='POST' className='grid h-screen place-content-center  gap-5 bg-blue-900 classname = text-blue-300 font-extrabold'>
+   
       <label className=' flex items-center justify-center gap-4'>
         Email:
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required  className='border border-blue-950  rounded-md'/>
@@ -38,6 +38,12 @@ export default function Login() {
      <p>You don't have an account?</p>
       <button type='submit' onClick={handleSignUp}>Sign Up</button>
      </div>
+     <p className='justify-items-end gap-11'>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+          ---- It's a pleased you want to join this community ---- </p>
     </form>
   );
 }

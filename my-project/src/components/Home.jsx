@@ -43,15 +43,15 @@ const Home = () => {
 
         </div>
         <div>
-        <p className='text-xl font-bold'>Caring for Your Mental Health</p>
-          <hi className= "TEXT-xl font-semibold">OverView</hi>
+        <p className='text-xl text-blue-900 font-semibold'>Caring for Your Mental Health</p>
+          <p className= "tEXT-xl text-blue-900 font-semibold">OverView</p>
          <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
-         <h1>About Self-Care</h1>
+         <p className="text-xl text-blue-900 font-semibold">About Self-Care</p>
          
             <p>Self-care means taking the time to do things that help you live well and improve both your physical health and mental health. When it comes to your mental health, self-care can help you manage stress, lower your risk of illness, and increase your energy. Even small acts of self-care in your daily life can have a big impact.
 
                 Here are some tips to help you get started with self-care:</p>
-        <ul>
+        <ul className='list-disc'> 
             <li>Get regular exercise. Just 30 minutes of walking every day can help boost your mood and improve your health. Small amounts of exercise add up, so don’t be discouraged if you can’t do 30 minutes at one time.</li>
             <li>Eat healthy, regular meals and stay hydrated. A balanced diet and plenty of water can improve your energy and focus throughout the day. Also, limit caffeinated beverages such as soft drinks or coffee.</li>
             <li>Make sleep a priority. Stick to a schedule, and make sure you’re getting enough sleep. Blue light from devices and screens can make it harder to fall asleep, so reduce blue light exposure from your phone or computer before bedtime.</li>
@@ -64,9 +64,9 @@ const Home = () => {
         </ul>
 
         </div>
-        <div className="text-blue-950 mt-6 flex flex-col gap-4">
+        <div className=" mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}
-          <h2 className='text-lg font-semibold '>Mental Health: The Key to a Proper Life, Success, and Peace</h2>
+          <h2 className='text-lg font-semibold '>Mental Health is the Key to a Proper Life, Success, and Peace</h2>
           <p>
             Maintaining good mental health is paramount for navigating the complexities of daily life.
             It serves as the cornerstone for our overall well-being, influencing how we think, feel, and act.

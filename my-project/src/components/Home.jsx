@@ -40,10 +40,30 @@ const Home = () => {
       <section className="max-w-7xl mx-auto  mt-8">
         <div className="text-xl text-blue-900 font-semibold  ">
           <h1>Welcome to RwandaMind Connect</h1>
-          <p>We are here for you.</p>
+
         </div>
+        <div>
+        <p className='text-xl font-bold'>Caring for Your Mental Health</p>
+          <hi className= "TEXT-xl font-semibold">OverView</hi>
+         <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
+         <h1>About Self-Care</h1>
+         
+            <p>Self-care means taking the time to do things that help you live well and improve both your physical health and mental health. When it comes to your mental health, self-care can help you manage stress, lower your risk of illness, and increase your energy. Even small acts of self-care in your daily life can have a big impact.
 
+                Here are some tips to help you get started with self-care:</p>
+        <ul>
+            <li>Get regular exercise. Just 30 minutes of walking every day can help boost your mood and improve your health. Small amounts of exercise add up, so don’t be discouraged if you can’t do 30 minutes at one time.</li>
+            <li>Eat healthy, regular meals and stay hydrated. A balanced diet and plenty of water can improve your energy and focus throughout the day. Also, limit caffeinated beverages such as soft drinks or coffee.</li>
+            <li>Make sleep a priority. Stick to a schedule, and make sure you’re getting enough sleep. Blue light from devices and screens can make it harder to fall asleep, so reduce blue light exposure from your phone or computer before bedtime.</li>
+            <li>Try a relaxing activity. Explore relaxation or wellness programs or apps, which may incorporate meditation, muscle relaxation, or breathing exercises. Schedule regular times for these and other healthy activities you enjoy such as journaling.</li>
+            <li>Set goals and priorities. Decide what must get done now and what can wait. Learn to say “no” to new tasks if you start to feel like you’re taking on too much. Try to be mindful of what you have accomplished at the end of the day, not what you have been unable to do.</li>
+            <li>Practice gratitude. Remind yourself daily of things you are grateful for. Be specific. Write them down at night, or replay them in your mind.</li>
+            <li>Focus on positivity. Identify and challenge your negative and unhelpful thoughts.</li>
+            <li>Stay connected. Reach out to your friends or family members who can provide emotional support and practical help.</li>
+            <li>Self-care looks different for everyone, and it is important to find what you need and enjoy. It may take trial and error to discover what works best for you. In addition, although self-care is not a cure for mental illnesses, understanding what causes or triggers your mild symptoms and what coping techniques work for you can help manage your mental health.</li>
+        </ul>
 
+        </div>
         <div className="text-blue-950 mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}
           <h2 className='text-lg font-semibold '>Mental Health: The Key to a Proper Life, Success, and Peace</h2>

@@ -19,9 +19,9 @@ export default function App() {
       <Route path="/" element={<Login />} />
       <Route path='/home' element={<Home />} />
       <Route path="/support" element={<Support />} />
-      <Route path="/resources" component={<Resources />} />
       <Route path="/topics" element={<Topics />} />
       <Route path='/chatboard' element={<Chatboard/>}/>
+      <Route path="/resources" element={<Resources />} />
       <Route path="/topics/anxiety" element={<Anxiety />} />
       <Route path='/topics/loneliness' element={<Loneliness />} />
       <Route path='/topics/adhd' element={<ADHD />} />

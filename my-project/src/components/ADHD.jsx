@@ -7,6 +7,12 @@ export default function ADHD() {
   const navigate = useNavigate()
   return (
     <div className='flex flex-col gap-4 bg-white h-screen'>
+      <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
+        {/* Logo */}
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        </div>
+      </header>
       <h2 className='text-Blue-500'>What is ADHD?</h2>
       <p>ADHD is a developmental disorder associated with an ongoing pattern of inattention, hyperactivity, and/or impulsivity.The symptoms of ADHD can interfere significantly with an individual’s daily activities and relationships. ADHD begins in childhood and can continue into the teen years and adulthood.</p>
       <p className='font-semibold text-blue-950'>What are the symptoms of ADHD?</p>

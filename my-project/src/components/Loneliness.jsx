@@ -6,6 +6,12 @@ export default function Loneliness() {
   const navigate = useNavigate()
   return (
     <div>
+      <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
+        {/* Logo */}
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        </div>
+      </header>
       Loneliness links
       
       <Link to="/chatboard" className="bg-blue-950 w-52 text-center text-white hover:bg-blue-300 hover:font-bold hover:text-blue-950 rounded-md px-6 py-3">Connect with your peers</Link>

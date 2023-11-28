@@ -6,6 +6,12 @@ export default function Depression() {
   const navigate = useNavigate()
   return (
     <div className="flex flex-col gap-10">
+      <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
+        {/* Logo */}
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        </div>
+      </header>
       <div>
       <h2>What is depression?</h2>
       <a href="https://youtu.be/d7NPnvKFs2Y">Understandin depression</a>

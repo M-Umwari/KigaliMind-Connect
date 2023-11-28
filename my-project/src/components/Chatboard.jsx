@@ -9,6 +9,12 @@ import { useNavigate } from 'react-router-dom';
 const socket = io('http://localhost:3001'); // Assuming your server is running on http://localhost:3001
 
 const Chatboard = ({ username }) => {
+  <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
+        {/* Logo */}
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        </div>
+      </header>
   const navigate = useNavigate()
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');

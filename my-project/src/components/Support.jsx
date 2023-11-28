@@ -5,6 +5,12 @@ export default function Support() {
   const navigate = useNavigate()
   return (
     <>
+    <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
+        {/* Logo */}
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        </div>
+      </header>
     <div>Awaiting on ALU's response for collaboration</div>
      
     <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">

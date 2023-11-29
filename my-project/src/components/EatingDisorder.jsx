@@ -13,8 +13,14 @@ export default function EatingDisorder() {
           </div>
           </div>
       </header>
+      <h2 className='text-black font-semibold'>What are eatingdisorders?</h2>
+      <p>Eating disorders are behavioral conditions characterized by severe and persistent disturbance in eating behaviors and associated distressing thoughts and emotions. They can be very serious conditions affecting physical, psychological and social function. Types of eating disorders include anorexia nervosa, bulimia nervosa, binge eating disorder, avoidant restrictive food intake disorder, other specified feeding and eating disorder, pica and rumination disorder.</p>
+      <p className='text-blue-400'>Click on this picture to learn more about Eating Disorders</p>
+      <a href="https://www.psychiatry.org/patients-families/eating-disorders/what-are-eating-disorders"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDMg3eDt-elj28-V5pbsrwH6AjKJV7zA4mQ&usqp=CAU"/></a>
+      <br/>
+      <Link to="/chatboard" className="bg-blue-950 w-52 text-center text-white hover:bg-blue-300 hover:font-bold hover:text-blue-950 rounded-md px-6 py-3">Connect with your peers</Link><br/>
+      <br/>
       
-      <Link to="/chatboard" className="bg-blue-950 w-52 text-center text-white hover:bg-blue-300 hover:font-bold hover:text-blue-950 rounded-md px-6 py-3">Connect with your peers</Link>
       <Link to="/support" className="bg-blue-950 w-52 text-center text-white hover:font-bold hover:bg-blue-300 hover:text-blue-950 rounded-md px-6 py-3">Get help from our support team</Link>
       <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 py-6 fixed bottom-0 h-10 w-full">
         <p>RWANDA MIND CONNECT</p>

@@ -32,6 +32,10 @@ export default function Resources() {
                 : "flex h-10 items-center gap-1.5 px-4 "}>Chatboard</NavLink>
           </div>
           <div className="flex gap-4">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
           <p className='text-xl text-blue-900 font-semibold'>Caring for Your Mental Health</p>
           <p className= "tEXT-xl text-blue-900 font-semibold">OverView</p>
          <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>

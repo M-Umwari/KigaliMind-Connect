@@ -34,7 +34,8 @@ const Topics = () => {
       </header>
       <section className='flex flex-col gap-4 my-10 px-24'>
         <h2 >Topics</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci, saepe autem non culpa eaque animi nihil unde repudiandae esse voluptatem officia iure nemo consectetur accusamus quaerat aut at error aliquid dolore rerum ratione! Qui, saepe optio. Praesentium dignissimos ex in odio iusto ipsa sed consectetur necessitatibus libero omnis! Itaque natus porro, odio nihil nesciunt fuga voluptatum animi minima dolorum perferendis mollitia recusandae blanditiis autem voluptatibus soluta iusto sint, ullam et repellendus consequuntur tempora, fugiat exercitationem! At atque consequatur dignissimos dicta repellat culpa nam. Voluptate natus, est nostrum minus expedita culpa autem quibusdam eos illum amet! Reiciendis consectetur accusamus mollitia.</p>
+        <p>Check in with your selves through this topics, learn more abouth them and identify the one that you are facing and get help from your peers and our support team.</p>
+        
         <section className='grid grid-cols-3 gap-5 text-red-950 font-bold text-lg'>
           <Link to="/topics/depression" className="bg-[url('src/assets/Images/Anxiety.svg')] bg-auto bg-no-repeat h-32 w-full text-center py-14 rounded-lg" >Depression</Link>
           <Link to="/topics/anxiety" className="bg-[url('src/assets/Images/Anxiety.svg')] bg-auto bg-no-repeat h-32 w-full text-center py-14 rounded-lg" >Anxiety</Link>

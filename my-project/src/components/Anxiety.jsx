@@ -12,7 +12,7 @@ export default function Anxiety() {
              <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
         </div>
       </header>
-      <h2 className='text-black font-semibold'>Whai is anxiety</h2>
+      <h2 className='text-black font-semibold'>What is anxiety</h2>
       <p>Anxiety is a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat. It can be a normal reaction to stress. For example, you might feel anxious when faced with a difficult problem at work, before taking a test, or before making an important decision. It can help you to cope. The anxiety may give you a boost of energy or help you focus. But for people with anxiety disorders, the fear is not temporary and can be overwhelming.</p>
       <h2 className='text-black font-medium'>What are the symptoms of anxiety disorders?</h2>
       <ul className='list-disc'>

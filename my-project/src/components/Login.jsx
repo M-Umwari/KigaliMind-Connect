@@ -43,7 +43,8 @@ export default function Login() {
       <br/>
       <br/>
       <br/>
-          ---- It's a pleased you want to join this community ---- </p>
+      <br/>
+          ---- It's a pleasure you want to join this community ---- </p>
     </form>
   );
 }

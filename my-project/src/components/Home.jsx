@@ -41,7 +41,8 @@ const Home = () => {
         <div className=" mt-10 flex flex-col gap-10 mb-20 mx-10">
         <div className="text-l text-blue-950 font-normal gap-30 ">
           <h2>Welcome to RwandaMind Connect, We're here for you!!</h2>
-          <p>We are a transofrmative platform dedicated to enhance mental-well being in Rwanda. Connect with others facing similar challenges, share your personal journey, and find support in a compassionate community. Your stories matter, and together, we build a network of understanding and empowerment. Join us in shaping a positive future for mental health.Click on this picture to learn more about mental health</p>
+          <p>We are a transofrmative platform dedicated to enhance mental-well being in Rwanda. Connect with others facing similar challenges, share your personal journey, and find support in a compassionate community. Your stories matter, and together, we build a network of understanding and empowerment. Join us in shaping a positive future for mental health.</p>
+          <p className='text-blue-300'>Click on this picture to learn more about mental health</p>
 
         </div>
 

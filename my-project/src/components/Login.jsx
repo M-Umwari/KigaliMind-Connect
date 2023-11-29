@@ -23,7 +23,7 @@ export default function Login() {
  return await signUp(email,password);
 }
   return (
-    <form method='POST' className='grid h-screen place-content-center  gap-5 bg-blue-900 classname = text-blue-300 font-extrabold'>
+    <form method='POST' className='grid h-screen place-content-center  gap-5 text-blue-900  bg-blue-300 font-extrabold'>
    
       <label className=' flex items-center justify-center gap-4'>
         Email:
@@ -33,10 +33,10 @@ export default function Login() {
         Password:
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required className='border border-blue-950  rounded-md' />
       </label>
-     <div className='flex flex-col gap-5 items-start'>
-     <button type='submit' onClick={handleLogin}>Login</button>
-     <p>You don't have an account?</p>
-      <button type='submit' onClick={handleSignUp}>Sign Up</button>
+     <div className='flex flex-col gap-2 items-start'>
+        <button type='submit' onClick={handleLogin} className='bg-blue-950 w-52 text-center text-white hover:bg-blue-300 hover:font-bold hover:text-blue-950 rounded-md px-6 py-3'>Login</button>
+     <p className='ml-16'>You don't have an account?</p>
+        <button type='submit' onClick={handleSignUp} className='bg-blue-950 w-52 text-center text-white hover:bg-blue-300 hover:font-bold hover:text-blue-950 rounded-md px-6 py-3'>Sign Up</button>
      </div>
      <p className='justify-items-end gap-11'>
       <br/>

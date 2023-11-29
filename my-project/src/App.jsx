@@ -27,7 +27,7 @@ export default function App() {
       <Route path='/topics/adhd' element={<ADHD />} />
       <Route path='/topics/depression' element={<Depression />} />
       <Route path='/topics/stress' element={<Stress />} />
-      <Route path='/topics/eating-disorder' element={<EatingDisorder/>}/>
+      <Route path='/topics/eating-disorders' element={<EatingDisorder/>}/>
     </Route>
   ))
   return (

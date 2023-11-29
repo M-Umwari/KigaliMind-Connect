@@ -14,7 +14,7 @@ const Chatboard = ({ username }) => {
         <div className=" rounded-full my-3 ">         
              <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
         </div>
-      </header>
+  </header>
   const navigate = useNavigate()
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');

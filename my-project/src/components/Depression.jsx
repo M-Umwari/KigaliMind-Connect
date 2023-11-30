@@ -5,11 +5,11 @@ import { useNavigate } from 'react-router-dom';
 export default function Depression() {
   const navigate = useNavigate()
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-4">
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
         {/* Logo */}
-        <div className=" rounded-full my-3 ">         
-             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+        <div className="rounded-full my-3">         
+             <img src="src/assets/Images/logo.png" className=" h-60 rounded-full" />
         </div>
       </header>
       <div>

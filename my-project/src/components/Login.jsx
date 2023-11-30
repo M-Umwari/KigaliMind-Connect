@@ -28,10 +28,7 @@ export default function Login() {
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>  
+      <br/> 
       <label className=' flex items-center justify-center gap-4'>
         Email:
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required  className='border border-blue-950  rounded-md'/>

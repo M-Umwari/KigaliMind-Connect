@@ -57,6 +57,8 @@ export default function Resources() {
             <li>Self-care looks different for everyone, and it is important to find what you need and enjoy. It may take trial and error to discover what works best for you. In addition, although self-care is not a cure for mental illnesses, understanding what causes or triggers your mild symptoms and what coping techniques work for you can help manage your mental health.</li>
           </ul>
         </div>
+        <br/>
+        <a href='https://www.everydayhealth.com/self-care/#:~:text=Common%20examples%20of%20self%2Dcare,health%20and%20happiness%20for%20you.' className='text-blue-900 font-semibold'>Click here to learn more about self-care</a>
 
         <div className=" mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}

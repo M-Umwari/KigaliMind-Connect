@@ -8,7 +8,7 @@ export default function Resources() {
     <div>
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4">
         {/* Logo */}
-        <div className="max-w-7xl mx-auto flex items-center h-full justify-between "></div>
+        <div className="max-w-7xl mx-auto flex items-center h-full justify-between ">
           <div className=" rounded-full my-3 ">         
              <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
           </div>
@@ -31,20 +31,21 @@ export default function Resources() {
                 ? "flex h-10 items-center gap-1 px-4  underline"
                 : "flex h-10 items-center gap-1.5 px-4 "}>Chatboard</NavLink>
           </div>
-          <div className="flex gap-4">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+        </div>
+      </header>
+         <section className='mx-12 mb-20'>
+        <div className="flex flex-col gap-4">
+          <br />
+          <br />
           <p className='text-xl text-blue-900 font-semibold'>Caring for Your Mental Health</p>
-          <p className= "tEXT-xl text-blue-900 font-semibold">OverView</p>
-         <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
-         <p className="text-xl text-blue-900 font-semibold">About Self-Care</p>
-         
-            <p>Self-care means taking the time to do things that help you live well and improve both your physical health and mental health. When it comes to your mental health, self-care can help you manage stress, lower your risk of illness, and increase your energy. Even small acts of self-care in your daily life can have a big impact.
+          <p className="tEXT-xl text-blue-900 font-semibold">OverView</p>
+          <p>Mental health includes emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others. Mental health is more than the absence of a mental illness—it’s essential to your overall health and quality of life. Self-care can play a role in maintaining your mental health and help support your treatment and recovery if you have a mental illness.</p>
+          <p className="text-xl text-blue-900 font-semibold">About Self-Care</p>
 
-                Here are some tips to help you get started with self-care:</p>
-        <ul className='list-disc'> 
+          <p>Self-care means taking the time to do things that help you live well and improve both your physical health and mental health. When it comes to your mental health, self-care can help you manage stress, lower your risk of illness, and increase your energy. Even small acts of self-care in your daily life can have a big impact.
+
+            Here are some tips to help you get started with self-care:</p>
+          <ul className='list-disc ml-6'>
             <li>Get regular exercise. Just 30 minutes of walking every day can help boost your mood and improve your health. Small amounts of exercise add up, so don’t be discouraged if you can’t do 30 minutes at one time.</li>
             <li>Eat healthy, regular meals and stay hydrated. A balanced diet and plenty of water can improve your energy and focus throughout the day. Also, limit caffeinated beverages such as soft drinks or coffee.</li>
             <li>Make sleep a priority. Stick to a schedule, and make sure you’re getting enough sleep. Blue light from devices and screens can make it harder to fall asleep, so reduce blue light exposure from your phone or computer before bedtime.</li>
@@ -54,9 +55,9 @@ export default function Resources() {
             <li>Focus on positivity. Identify and challenge your negative and unhelpful thoughts.</li>
             <li>Stay connected. Reach out to your friends or family members who can provide emotional support and practical help.</li>
             <li>Self-care looks different for everyone, and it is important to find what you need and enjoy. It may take trial and error to discover what works best for you. In addition, although self-care is not a cure for mental illnesses, understanding what causes or triggers your mild symptoms and what coping techniques work for you can help manage your mental health.</li>
-        </ul>
-          </div>
-        
+          </ul>
+        </div>
+
         <div className=" mt-6 flex flex-col gap-4">
           {/* Information about Mental Health */}
           <h2 className='text-lg font-semibold '>Mental Health is the Key to a Proper Life, Success, and Peace</h2>
@@ -72,7 +73,7 @@ export default function Resources() {
             Whether it is through sharing resources, providing a listening ear, or fostering an environment of understanding, we look forward to being a part of your mental health journey. Your well-being matters, and your commitment to it is truly inspiring.
           </p>
         </div>
-      </header>
+         </section>
       <footer className="flex  items-center gap-20 justify-center bg-blue-950 text-blue-300 fixed bottom-0 h-10 w-full">
         <p>RWANDA MIND CONNECT</p>
         <div className="flex gap-4">
@@ -90,7 +91,6 @@ export default function Resources() {
           Log out
         </button>
       </footer>
-      
-    </div>
+      </div>
   )
 }

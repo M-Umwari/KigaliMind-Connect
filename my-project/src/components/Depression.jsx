@@ -8,9 +8,9 @@ export default function Depression() {
     <div className="flex flex-col gap-4">
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
         {/* Logo */}
-        <div className="rounded-full my-3">         
-             <img src="src/assets/Images/logo.png" className=" h-60 rounded-full" />
-        </div>
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+          </div>
       </header>
       <div>
       <h2 className="text-xl font-semibold">What is depression?</h2>

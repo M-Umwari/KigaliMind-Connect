@@ -8,8 +8,8 @@ export default function EatingDisorder() {
     <div>
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
         <div className="max-w-7xl mx-auto flex items-center h-full justify-between ">
-          <div className=" rounded-full my-3 ">
-            <img src='./' className=" h-60 rounded-full" />
+        <div className=" rounded-full my-3 ">         
+             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
           </div>
           </div>
       </header>

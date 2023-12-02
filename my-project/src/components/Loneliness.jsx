@@ -9,7 +9,7 @@ export default function Loneliness() {
       <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
         {/* Logo */}
         <div className=" rounded-full my-3 ">         
-             <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+             <img src='src/assets/Images/logo.png' className=' h-60 rounded-full' />
         </div>
       </header>
       <h2 className='texT-black font-semibold'>What is Loneliness?</h2>

@@ -13,7 +13,7 @@ export default function ADHD() {
              <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
         </div>
       </header>
-      <h2 className='text-Blue-500 font-semibold'>What is ADHD?</h2>
+      <h2 className='text-Blue-500 font-semiboldcd'>What is ADHD?</h2>
       <p>ADHD is a developmental disorder associated with an ongoing pattern of inattention, hyperactivity, and/or impulsivity.The symptoms of ADHD can interfere significantly with an individual’s daily activities and relationships. ADHD begins in childhood and can continue into the teen years and adulthood.</p>
       <p className='font-semibold text-blue-950'>What are the symptoms of ADHD?</p>
       <ul className='list-disc ml-3 px-3'>

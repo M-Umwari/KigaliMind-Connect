@@ -13,7 +13,7 @@ const Home = () => {
         {/* Logo */}
         <div className="max-w-7xl mx-auto flex items-center h-full justify-between ">
           <div className=" rounded-full my-3 ">
-            <img src='src/assets/Images/logo.png' className=" h-60 rounded-full" />
+            <img src='../src/assets/Images/logo.png' className=" h-60 rounded-full" />
           </div>
           <div className=" flex gap-4 items-center md:text-2xl">
             {/* Navigation Links */}

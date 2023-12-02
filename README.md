@@ -14,7 +14,7 @@ git clone https://github.com/M-Umwari/KigaliMind-Connect.git
 
 ```bash
 
-cd Gear_Learning && cd client
+cd my-project
 ```
 
 ### Install the dependencies

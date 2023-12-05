@@ -7,7 +7,7 @@ import { signOut } from 'firebase/auth';
 import { useNavigate,NavLink
  } from 'react-router-dom';
 
-const socket = io('http://localhost:3001'); // Assuming your server is running on http://localhost:3001
+const socket = io('http://localhost:3001'); 
 
 const Chatboard = () => {
   <header className="bg-blue-950 text-blue-300 px-20 h-1/4 ">
